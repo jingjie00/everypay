@@ -27,17 +27,6 @@
         app:layout_constraintVertical_bias="0.023"
         tools:ignore="OnClick" />
 
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="87dp"
-
-        android:layout_height="100dp"
-        android:layout_marginTop="112dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/everypaypayicon" />
-
     <!--    <Button-->
     <!--        android:id="@+id/notifybutton"-->
     <!--        android:layout_width="372dp"-->
@@ -54,6 +43,20 @@
     <!--        app:layout_constraintTop_toTopOf="parent"-->
     <!--        app:layout_constraintVertical_bias="0.922"-->
     <!--        tools:ignore="OnClick" />-->
+
+    <ImageView
+        android:id="@+id/imageView00000"
+        android:layout_width="57dp"
+        android:onClick="goGDSelection"
+        android:clickable="true"
+        android:layout_height="61dp"
+        android:src="@drawable/ic_menu_manage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027" />
 
     <ImageView
         android:id="@+id/qrView"

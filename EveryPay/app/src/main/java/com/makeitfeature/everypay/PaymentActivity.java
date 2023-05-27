@@ -150,9 +150,10 @@ public class PaymentActivity extends AppCompatActivity {
 
         NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
         notificationManager.notify(1, builder.build());
+        createNotificationChannel();
     }
 
-    private void createNotificationChannel() {
+    public void createNotificationChannel() {
         NotificationChannel channel = new NotificationChannel(CHANNEL_ID, CHANNEL_NAME, NotificationManager.IMPORTANCE_DEFAULT);
         channel.setDescription(CHANNEL_DESCRIPTION);
         channel.enableLights(true);
@@ -160,6 +161,12 @@ public class PaymentActivity extends AppCompatActivity {
 
         NotificationManager notificationManager = getSystemService(NotificationManager.class);
         notificationManager.createNotificationChannel(channel);
+    }
+
+    public void goGDSelection(View view){
+        Intent i = new Intent(PaymentActivity.this, GDSelection.class);
+        startActivity(i);
+        finish();
     }
 
 

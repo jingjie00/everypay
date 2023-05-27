@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PaymentScreen">
+    tools:context=".GDSelection">
 
     <TextView
         android:id="@+id/textView31"
@@ -26,7 +26,7 @@
         android:id="@+id/b1"
         android:layout_width="372dp"
         android:layout_height="59dp"
-        android:onClick="doPayment"
+        android:onClick="doGuardian"
         android:text="I want to be guardian"
         android:textSize="20sp"
         app:backgroundTint="#FFC107"
@@ -42,7 +42,7 @@
         android:id="@+id/b2"
         android:layout_width="372dp"
         android:layout_height="59dp"
-        android:onClick="doPayment"
+        android:onClick="doDependent"
         android:text="I want to be dependent"
         android:textSize="20sp"
         app:backgroundTint="#3F51B5"

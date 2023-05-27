@@ -2,7 +2,9 @@ package com.makeitfeature.everypay;
 
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -29,7 +31,17 @@ public class GDSelection extends AppCompatActivity {
         toast.show();
     }
 
+    public void doDependent(View view){
+        Intent i = new Intent(GDSelection.this, Dependent.class);
+        startActivity(i);
+        finish();
+    }
 
+    public void doGuardian(View view){
+        Intent i = new Intent(GDSelection.this, Guardian.class);
+        startActivity(i);
+        finish();
+    }
 
 
 }
