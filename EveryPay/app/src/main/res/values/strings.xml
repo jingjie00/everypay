@@ -141,6 +141,8 @@
     <string name="CurDesc">This is money logo</string>
 
 
+
+
     <string name="feehead">Fee Payment</string>
     <string name="schoolname">School Name</string>
     <string name="schoolnum">School Number</string>
@@ -148,18 +150,7 @@
 
     <!--APIs-->
     <string name="generateQR">https://analog-medium-388007.as.r.appspot.com/payhack/qr/get/QRUrL</string>
-    <!-- Preference Titles -->
-    <string name="messages_header">Messages</string>
-    <string name="sync_header">Sync</string>
 
-    <!-- Messages Preferences -->
-    <string name="signature_title">Your signature</string>
-    <string name="reply_title">Default reply action</string>
-
-    <!-- Sync Preferences -->
-    <string name="sync_title">Sync email periodically</string>
-    <string name="attachment_title">Download incoming attachments</string>
-    <string name="attachment_summary_on">Automatically download attachments for incoming emails
-    </string>
-    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="main_loading_1h1">Please grant the usage of camera, storage, and location permission after restart or in device setting.</string>
+    <string name="main_loading_1h2">Please restart the application.</string>
 </resources>
