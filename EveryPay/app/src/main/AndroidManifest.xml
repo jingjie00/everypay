@@ -4,32 +4,41 @@
 
     <application
         android:allowBackup="true"
+        android:exported="true"
         android:icon="@mipmap/logo"
         android:label="@string/app_name"
-        android:exported="true"
         android:roundIcon="@mipmap/logo_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EveryPay">
-        <activity android:name="com.makeitfeature.everypay.feePay"
-            android:theme="@style/Theme.EveryPay.NoActionBar"
-            android:exported="true"/>
-        <activity android:name="com.makeitfeature.everypay.Passbook"
-            android:theme="@style/Theme.EveryPay.NoActionBar"
-            android:exported="true"/>
-        <activity android:name="com.makeitfeature.everypay.payementDone"
-            android:theme="@style/Theme.EveryPay.NoActionBar"
-            android:exported="true"/>
-        <activity android:name="com.makeitfeature.everypay.PaymentScreen"
-            android:theme="@style/Theme.EveryPay.NoActionBar"
-            android:exported="true"/>
-        <activity android:name="com.makeitfeature.everypay.forgot"
-            android:theme="@style/Theme.EveryPay.NoActionBar"
-            android:exported="true"/>
         <activity
-            android:name="com.makeitfeature.everypay.Home"
-            android:label="@string/title_activity_home"
+            android:name=".ui.settings.PreferenceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feePay"
+            android:exported="true"
             android:theme="@style/Theme.EveryPay.NoActionBar" />
-        <activity android:name="com.makeitfeature.everypay.MainActivity" android:exported="true">
+        <activity
+            android:name=".Passbook"
+            android:exported="true"
+            android:theme="@style/Theme.EveryPay.NoActionBar" />
+        <activity
+            android:name=".payementDone"
+            android:exported="true"
+            android:theme="@style/Theme.EveryPay.NoActionBar" />
+        <activity
+            android:name=".PaymentScreen"
+            android:exported="true"
+            android:theme="@style/Theme.EveryPay.NoActionBar" />
+        <activity
+            android:name=".forgot"
+            android:exported="true"
+            android:theme="@style/Theme.EveryPay.NoActionBar" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
