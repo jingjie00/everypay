@@ -70,34 +70,9 @@ public class CameraRecognitionActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
 
-        if (savedInstanceState == null) {
-            getSupportFragmentManager().beginTransaction()
-                    .setReorderingAllowed(true)
-                    .commit();
-
-        }
 
     }
 
-
-    private Handler handler = new Handler();
-    // Define the code block to be executed
-    private Runnable runnable = new Runnable() {
-        @RequiresApi(api = Build.VERSION_CODES.O)
-        @Override
-        public void run() {
-            // Insert custom code here
-            try {
-                    ArrayList<Bitmap> bm = CameraFragment.current_input_faces;
-            } catch (Exception e) {
-                e.printStackTrace();
-            }finally {
-                long interval = Preferences.getLongPreferenceValue(getApplicationContext(), Preferences.SETTING_OUTPUTINTERVAL);
-                handler.postDelayed(runnable, interval);
-            }
-
-        }
-    };
 
 
 
