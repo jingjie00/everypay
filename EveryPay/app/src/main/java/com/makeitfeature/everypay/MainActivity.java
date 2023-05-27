@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(secondScreen);
         }
         else {
-            Toaster("Incorrect User or Pass");
+            Toaster("Incorrect User or Password");
         }
 
 
