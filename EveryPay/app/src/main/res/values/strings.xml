@@ -148,5 +148,6 @@
     <string name="schoolnum">School Number</string>
     <string name="studentName">Student Name</string>
 
-
+    <!--APIs-->
+    <string name="generateQR">https://analog-medium-388007.as.r.appspot.com/payhack/qr/get/QRUrL</string>
 </resources>
