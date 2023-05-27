@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.erp.payrocket"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="30" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.PayRocket" >
+        <activity android:name="com.erp.payrocket.feePay" />
+        <activity android:name="com.erp.payrocket.Passbook" />
+        <activity android:name="com.erp.payrocket.payementDone" />
+        <activity android:name="com.erp.payrocket.PaymentScreen" />
+        <activity android:name="com.erp.payrocket.forgot" />
+        <activity
+            android:name="com.erp.payrocket.Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.PayRocket.NoActionBar" />
+        <activity android:name="com.erp.payrocket.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
