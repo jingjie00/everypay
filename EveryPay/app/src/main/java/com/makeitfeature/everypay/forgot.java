@@ -9,7 +9,7 @@ public class forgot extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_forgot);
+        setContentView(R.layout.activity_login_hint);
 
     }
 }
