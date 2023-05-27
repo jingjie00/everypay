@@ -1,15 +1,12 @@
-# Pay Rocket     
+# EveryPay     
 Payment Becomes Faster
 
-# Welcome to Pay Rocket Readme.
-
-Pay Rocket is a Payment app Ui made in Java android studio. It is just an Frontend build.
-
-Pay rocket is made for Android only as it is made in Android Studio.
+# Welcome to EveryPay Readme.
+EveryPay: everyone can e-pay safely anytime at anywhere
 
 ## Requirments 
 
-Pay Rocket Requires Java and Andorid Studio and Emulator to Test on.
+EveryPay Requires Java and Andorid Studio and Emulator to Test on.
 It is completly made in Java.
 
 
