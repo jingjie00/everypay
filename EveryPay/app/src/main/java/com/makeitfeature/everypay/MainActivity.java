@@ -1,21 +1,15 @@
 package com.makeitfeature.everypay;
 
 
-import static android.Manifest.permission.HIGH_SAMPLING_RATE_SENSORS;
-
 import androidx.activity.result.ActivityResultCallback;
 import androidx.activity.result.ActivityResultLauncher;
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.Manifest;
-import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -23,17 +17,12 @@ import com.firebase.ui.auth.AuthUI;
 import com.firebase.ui.auth.FirebaseAuthUIActivityResultContract;
 import com.firebase.ui.auth.IdpResponse;
 import com.firebase.ui.auth.data.model.FirebaseAuthUIAuthenticationResult;
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.auth.GetTokenResult;
 import com.tbruyelle.rxpermissions2.RxPermissions;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.prefs.Preferences;
 
 public class MainActivity extends AppCompatActivity {
     private FirebaseAuth mAuth;
@@ -120,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void loginwithemail(View view){
-        Intent i = new Intent(MainActivity.this, CameraRecognitionActivity.class);
+        Intent i = new Intent(MainActivity.this, PaymentActivity.class);
         i.putExtra("user","dependent");
         i.putExtra("id","1273432172");
         startActivity(i);
@@ -128,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void loginwithgoogle(View view){
-        Intent i = new Intent(MainActivity.this, CameraRecognitionActivity.class);
+        Intent i = new Intent(MainActivity.this, PaymentActivity.class);
         i.putExtra("user","dependent");
         i.putExtra("id","1273432172");
         startActivity(i);

@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.makeitfeature.everypay">
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.usb.host" />
@@ -62,7 +63,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.makeitfeature.everypay.CameraRecognitionActivity"
+            android:name="com.makeitfeature.everypay.PaymentActivity"
             android:label="Camera Recognition Activity"
             android:exported="false"/>
     </application>

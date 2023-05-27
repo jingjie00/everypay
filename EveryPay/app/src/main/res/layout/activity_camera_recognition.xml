@@ -1,46 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CameraRecognitionActivity">
+    tools:context=".PaymentActivity">
 
-    <View
-        android:id="@+id/strut"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true" />
-
-
-    <FrameLayout
-        android:id="@+id/camera_preview"
-        android:layout_width="450dp"
-        android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="146dp"
-        android:layout_marginBottom="-145dp"
-        android:orientation="vertical"
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="259dp"
+        android:layout_height="47dp"
+        android:gravity="center"
+        android:textColor="#3F51B5"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        android:text="Guardian Setting" />
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="238dp"
-            android:layout_height="62dp"
-            android:text="Login"
-            android:textSize="24sp"
-            app:backgroundTint="#0320C3"
-            app:cornerRadius="80dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.491"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.757" />
-    </FrameLayout>
 
-</RelativeLayout>
+    <ImageView
+        android:layout_width="87dp"
+        android:layout_height="100dp"
+
+        android:layout_marginTop="112dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/everypaypayicon" />
+
+    <Button
+        android:layout_width="372dp"
+        android:layout_height="59dp"
+        android:onClick="showNotification"
+        android:text="Confirm"
+        android:textSize="20sp"
+        app:backgroundTint="#3F51B5"
+        app:cornerRadius="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.922" />
+
+    <Button
+        android:layout_width="372dp"
+        android:layout_height="59dp"
+        android:text="Confirm"
+        android:textSize="20sp"
+        app:backgroundTint="#3F51B5"
+        app:cornerRadius="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.79" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
