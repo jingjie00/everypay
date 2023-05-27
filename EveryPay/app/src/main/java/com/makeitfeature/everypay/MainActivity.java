@@ -67,10 +67,12 @@ public class MainActivity extends AppCompatActivity {
                         // At least one permission is denied
                         Toast.makeText(getApplicationContext(), getString(R.string.main_loading_1h1), Toast.LENGTH_SHORT).show();
                         Toast.makeText(getApplicationContext(), getString(R.string.main_loading_1h2), Toast.LENGTH_SHORT).show();
+                    }else{
+                        signInValidate();
                     }
 
                 });
-        //signInValidate();
+
     }
 
     private void signInValidate() {
@@ -89,7 +91,6 @@ public class MainActivity extends AppCompatActivity {
                     Intent intent = new Intent(MainActivity.this, RestoreInitialiseActivity.class);
                     startActivity(intent);
                     finishAffinity();
-                    // FaceRecogniser.update(getApplicationContext());
                 }
             }).addOnFailureListener(new OnFailureListener() {
                 @Override
