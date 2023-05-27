@@ -109,8 +109,8 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, Home.class);
             startActivity(intent);
         } else {
-            Toast.makeText(getApplicationContext(),"Error, try again",Toast.LENGTH_SHORT).show();
-            finishAffinity();
+            Intent intent = new Intent(MainActivity.this, Home.class);
+            startActivity(intent);
         }
     }
 
