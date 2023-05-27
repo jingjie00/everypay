@@ -11,6 +11,6 @@
         android:layout_height="wrap_content"
         android:theme="@style/Theme.EveryPay.AppBarOverlay"/>
 
-    <include layout="@layout/content_main" />
+    <include layout="@layout/activity_home" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
