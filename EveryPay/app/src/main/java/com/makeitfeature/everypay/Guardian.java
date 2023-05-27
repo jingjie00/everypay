@@ -43,6 +43,11 @@ public class Guardian extends AppCompatActivity {
         toast.show();
     }
 
+    public void goPayment(View view){
+        Intent i = new Intent(Guardian.this, PaymentActivity.class);
+        startActivity(i);
+        finish();
+    }
 
 
 

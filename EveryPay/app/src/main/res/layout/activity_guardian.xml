@@ -53,23 +53,22 @@
         android:id="@+id/recNum"
         android:layout_width="294dp"
         android:layout_height="44dp"
-        android:layout_marginBottom="168dp"
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/payNum"
         android:inputType="phone"
         android:textColor="#000000"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="404dp" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/c3"
         android:layout_width="372dp"
         android:layout_height="59dp"
-        android:onClick="doPayment"
+        android:onClick="goPayment"
         android:text="Confirm"
         android:textSize="20sp"
         app:backgroundTint="#3F51B5"
