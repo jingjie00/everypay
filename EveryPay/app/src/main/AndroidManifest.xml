@@ -50,9 +50,6 @@
         <activity android:name="com.makeitfeature.everypay.PaymentScreen"
             android:theme="@style/Theme.EveryPay.NoActionBar"
             android:exported="true"/>
-        <activity android:name="com.makeitfeature.everypay.forgot"
-            android:theme="@style/Theme.EveryPay.NoActionBar"
-            android:exported="true"/>
         <activity
             android:name="com.makeitfeature.everypay.Home"
             android:label="@string/title_activity_home"

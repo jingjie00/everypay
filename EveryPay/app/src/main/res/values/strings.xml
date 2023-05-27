@@ -151,6 +151,99 @@
     <!--APIs-->
     <string name="generateQR">https://analog-medium-388007.as.r.appspot.com/payhack/qr/get/QRUrL</string>
 
+
+    <string name="main_loading_hint">Visit Huawei AppGallery for HMS version.\nPlease open in landscape!\n</string>
+    <string name="main_loading_1b">/5\nChecking Application Permission…</string>
     <string name="main_loading_1h1">Please grant the usage of camera, storage, and location permission after restart or in device setting.</string>
     <string name="main_loading_1h2">Please restart the application.</string>
+    <string name="main_loading_2b">/5\nChecking User Credential…</string>
+    <string name="main_loading_2success">Signed in.</string>
+    <string name="main_loading_2failure">Please check the internet connection.</string>
+    <string name="main_loading_4">/5\nChecking Database…</string>
+    <string name="main_loading_5">/5\nChecking and Restoring Database…</string>
+    <string name="main_loading_5f">Database restored failed. Please try again at account/backup.</string>
+    <string name="main_loading_5s">Database restored successfully.</string>
+    <string name="main_loading_complete">/5\nInitialising…</string>
+
+    <string name="activity_tutorial_hint">This is tutorial and about activity.\nTop left button can trigger short cut to select of tutorial view or activity view.\nTop right button can direct open the current page in browser.</string>
+    <string name="activity_email_sign_in">This is email sign in activity.\nPlease provide an email address to continue.</string>
+    <string name="activity_email_sign_in_validation">This is email sign in activity.\nPlease provide the password to continue.</string>
+    <string name="activity_sign_up">This is email sign up activity.\nPlease provide an username and password to continue.</string>
+    <string name="activity_account_and_backup">This is account and backup restore activity.\nAt left pane you may do log out.\nAt right pane you may do backup or restore.</string>
+    <string name="activity_add_face_record">This is add face record activity.\nLeft pane is camera area.\nYou may change the camera view to front, back or external camera.\n\nRight pane is adding area. Top there have 2 buttons.\nLeft button navigate you select photo from gallary.Right button use for capture a face from camera.\nThen you may set a name, and save using bottom button in right pane.</string>
+    <string name="activity_camera_recognition">This is camera recognition activity. \nThere are 4 buttons at each corner.\n Bottom right button is for setting and others are for recognition functions.\nThe center is camera view.\nIn the camera view, there having 1 continuous output toggle at top center.\nBesides, two buttons are located at both left and right \nfor device camera and external camera switching respectively.</string>
+    <string name="activity_edit_and_remove_face">This is edit and remove face record activity.\nLeft pane is for searching and viewing current record in database. You may select one person and move to right pane for edit or remove.\nRight pane is edit area. This area is only activated after user select a person from left pane.\nThe most top is delete button. When clicked, all the related face to the person will be removed.\nThere are slider image view, you may press upper right button to remove single face from the respective person.\nLastly, is a text box, you may do edit name on there. Then clicks the save button (which located at the most bottom) to save the edit text.</string>
+    <string name="activity_main">This is main activity. \nLoading</string>
+    <string name="activity_restore_initialise">This is restore and initialisation activity. \nLoading</string>
+    <string name="activity_setting">This is setting activity.\nThere are 4 buttons at each corner.\n At middle, there is an on-screen recognition toggle, continuous output interval setting button, and language setting button.</string>
+    <string name="activity_sign_in_selection">This is sign in activity.\nThere are 3 buttons at right pane.\nEach button indicate a sign in method.</string>
+    <string name="activity_on_screen_recognition_initialise">This is on screen recognition process activity.\nAfter this activity is done, the configuration is complete. You may do on screen recognition.\nPlease grant the overlay and screen projection permission.</string>
+
+    <string name="select_a_sign_in_method">Select a sign-in method</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="sign_in_with_email">Sign in with Email</string>
+    <string name="continue_as_guest">Continue as Guest</string>
+
+    <string name="hi_welcome">Hi, Welcome.</string>
+    <string name="hi">Hi </string>
+
+    <string name="account_guest">Guest</string>
+    <string name="account_no_email">No email is available</string>
+    <string name="account_uploading">Uploading…</string>
+    <string name="account_cannot_upload">Cannot upload.</string>
+    <string name="account_upload_successfully">Database backed up successfully.</string>
+    <string name="account_restoring">Restoring the database…</string>
+    <string name="account_backup_fail">Download backup fail. Please try again.</string>
+    <string name="account_no_backup">No backup available. Please try again.</string>
+    <string name="account_export_failed">Exporting failed. Please try again.</string>
+    <string name="account_restore_successfully">Database restored successfully.</string>
+    <string name="account_guess_no_access_hint">Guest have no access to the Backup function.\nPlease sign in with Google or Email.</string>
+    <string name="account_backup_loading">Last backup:\nLoading…</string>
+    <string name="account_no_backup_found">No backup</string>
+    <string name="account_last_backup_time">Last backup:</string>
+    <string name="account_daily_backup_time_desc_h">The daily backup is set on </string>
+    <string name="account_daily_backup_time_desc_t"> hours.</string>
+    <string name="account_daily_backup_picker">You can pick a time for daily backup.</string>
+    <string name="account_auto_backup_desc_h">The daily backup is set on </string>
+    <string name="account_auto_backup_desc_t"> hours everyday.</string>
+    <string name="account_db_h">Local database:</string>
+    <string name="account_db_c1_1">Total of </string>
+    <string name="account_db_c1_2"> person, </string>
+    <string name="account_db_c2_1">and 1 face.</string>
+    <string name="account_db_c2_2h">and </string>
+    <string name="account_db_c2_2t"> faces.</string>
+
+    <string name="account_google_created">, account created. Successfully login.</string>
+    <string name="account_google_welcome_back">, welcome back. Successfully login.</string>
+
+    <string name="email_welcome_prompt1">Welcome to sign up for </string>
+    <string name="email_welcome_prompt2">.\nPlease provide username and password.</string>
+    <string name="email_username_valid">Valid username.</string>
+    <string name="email_username_invalid">Invalid username. Username must be at within 1 to 16 characters</string>
+    <string name="email_password_valid">Valid password.</string>
+    <string name="email_password_invalid">Invalid password. Password must be at within 6 to 16 characters.</string>
+    <string name="email_auth_failed">Authentication failed, Check internet connection. </string>
+    <string name="email_username_invalid_p">Username must be at within 1 to 16 characters.</string>
+    <string name="email_password_invalid_p">Password must be at within 6 to 16 characters.</string>
+    <string name="email_hi">Hi </string>
+    <string name="email_account_created_and_login">, account created. Successfully login.</string>
+    <string name="email_sign_in_prompt_h">Welcome </string>
+    <string name="email_sign_in_prompt_t">,\nPlease enter a password to sign in.</string>
+    <string name="email_sign_in_pass_valid">You may click sign in once your entered your password.</string>
+    <string name="email_sign_in_pass_invalid_1">No password entered.</string>
+    <string name="email_sign_in_pass_invalid_2">Password too long.</string>
+    <string name="email_password_hide">Hide password</string>
+    <string name="email_password_show">Show password</string>
+    <string name="email_password_wrong_prompt1">Please enter your password.</string>
+    <string name="email_password_wrong_prompt2">Wrong password! Please try again.</string>
+    <string name="email_sign_in_success">, welcome back. Successfully login.</string>
+    <string name="email_reset_title">Reset password</string>
+    <string name="reset_content1">A reset link is sent to the following email:\n </string>
+    <string name="reset_content2">.\n\nAfter reset password, please reenter using the new password.</string>
+    <string name="reset_content3">After reset, please come back to continue the login.</string>
+    <string name="email_valid_prompt">Valid email.</string>
+    <string name="email_invalid_prompt">Invalid email.</string>
+    <string name="email_empty_prompt">Invalid email entered. Please provide a valid email.</string>
+    <string name="email_error">Connection error. Please check internet connection.</string>
+    <string name="sign_in_failed">Sign in failed. You may try other sign in option</string>
 </resources>
