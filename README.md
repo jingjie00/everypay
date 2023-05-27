@@ -2,7 +2,10 @@
 Payment Becomes Faster
 
 # Welcome to EveryPay Readme.
-EveryPay: everyone can e-pay safely anytime at anywhere
+
+EveryPay is a Payment app Ui made in Java android studio. It is just an Frontend build.
+
+EveryPay is made for Android only as it is made in Android Studio.
 
 ## Requirments 
 
