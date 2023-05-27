@@ -65,6 +65,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="138dp"
+
         android:gravity="center"
         android:scaleType="fitXY"
         android:visibility="invisible"
@@ -81,37 +82,45 @@
         android:layout_height="350dp"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
-        android:layout_marginBottom="138dp"
+        android:layout_marginBottom="228dp"
+        android:animateLayoutChanges="true"
         android:gravity="center"
         android:scaleType="fitXY"
+        android:src="@drawable/email_sent"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView31"
-        tools:ignore="MissingConstraints,UnknownIdInLayout"
-        android:src="@drawable/email_sent"
-        android:animateLayoutChanges="true"
-        android:visibility="invisible"
-        />
+        tools:ignore="MissingConstraints,UnknownIdInLayout" />
 
     <TextView
         android:id="@+id/qrHint"
-        android:layout_width="200dp"
-        android:layout_height="74dp"
+        android:layout_width="342dp"
+        android:layout_height="90dp"
         android:clickable="true"
+        android:gravity="center_horizontal"
         android:onClick="showNotification"
         android:text="Refresh Every 5 minutes!"
+        android:textSize="25sp"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.539"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.943"
-        tools:ignore="MissingConstraints,OnClick"
-        android:textSize="15sp"
-        android:gravity="center_horizontal"
-        />
+        app:layout_constraintVertical_bias="0.778"
+        tools:ignore="MissingConstraints,OnClick" />
 
+    <Button
+        android:layout_width="362dp"
+        android:layout_height="122dp"
+        android:layout_marginBottom="4dp"
+        android:text="Or Scan QR"
+        android:textSize="25sp"
+        app:backgroundTint="#3F51B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

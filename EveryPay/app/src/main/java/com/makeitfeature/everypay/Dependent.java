@@ -2,6 +2,7 @@ package com.makeitfeature.everypay;
 
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.media.Image;
@@ -82,13 +83,6 @@ public class Dependent extends AppCompatActivity {
             }
         });
 
-        Button confirmByD = findViewById(R.id.confirmByD);
-        confirmByD.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        });
     }
 
     public void Toaster(String msg){
@@ -98,7 +92,11 @@ public class Dependent extends AppCompatActivity {
         toast.show();
     }
 
-
+    public void goPayment(View view){
+        Intent i = new Intent(Dependent.this, PaymentActivity.class);
+        startActivity(i);
+        finish();
+    }
 
 
 }
