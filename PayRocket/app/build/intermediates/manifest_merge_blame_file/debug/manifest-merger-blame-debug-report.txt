@@ -28,32 +28,32 @@
 19        android:testOnly="true"
 20        android:theme="@style/Theme.PayRocket" >
 20-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:11:9-47
-21        <activity android:name="com.erp.payrocket.feePay" />
-21-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:12:9-53
-21-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:12:19-41
-22        <activity android:name="com.erp.payrocket.Passbook" />
-22-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:13:9-46
-22-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:13:19-43
-23        <activity android:name="com.erp.payrocket.payementDone" />
-23-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:14:9-50
-23-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:14:19-47
-24        <activity android:name="com.erp.payrocket.PaymentScreen" />
-24-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:15:9-51
-24-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:15:19-48
-25        <activity android:name="com.erp.payrocket.forgot" />
-25-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:16:9-44
-25-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:16:19-41
+21        <activity android:name="com.makeitfeature.everypay.feePay" />
+21-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:12:9-79
+21-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:12:19-67
+22        <activity android:name="com.makeitfeature.everypay.Passbook" />
+22-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:13:9-72
+22-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:13:19-69
+23        <activity android:name="com.makeitfeature.everypay.payementDone" />
+23-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:14:9-76
+23-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:14:19-73
+24        <activity android:name="com.makeitfeature.everypay.PaymentScreen" />
+24-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:15:9-77
+24-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:15:19-74
+25        <activity android:name="com.makeitfeature.everypay.forgot" />
+25-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:16:9-70
+25-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:16:19-67
 26        <activity
 26-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:17:9-20:66
-27            android:name="com.erp.payrocket.Home"
-27-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:18:13-33
+27            android:name="com.makeitfeature.everypay.Home"
+27-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:18:13-59
 28            android:label="@string/title_activity_home"
 28-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:19:13-56
 29            android:theme="@style/Theme.PayRocket.NoActionBar" />
 29-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:20:13-63
-30        <activity android:name="com.erp.payrocket.MainActivity" >
+30        <activity android:name="com.makeitfeature.everypay.MainActivity" >
 30-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:21:9-27:20
-30-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:21:19-47
+30-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:21:19-73
 31            <intent-filter>
 31-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:22:13-26:29
 32                <action android:name="android.intent.action.MAIN" />

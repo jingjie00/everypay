@@ -1,4 +1,4 @@
-com.erp.payrocket
+com.makeitfeature.everypay
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -1687,6 +1687,8 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable everypayicon
+drawable everypaypayicon
 drawable food
 drawable gradientblue
 drawable gradientgreen
@@ -1741,7 +1743,6 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
-drawable payricon
 drawable profile
 drawable rupee
 drawable side_nav_bar

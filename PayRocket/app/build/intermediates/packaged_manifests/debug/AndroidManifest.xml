@@ -18,16 +18,16 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.PayRocket" >
-        <activity android:name="com.erp.payrocket.feePay" />
-        <activity android:name="com.erp.payrocket.Passbook" />
-        <activity android:name="com.erp.payrocket.payementDone" />
-        <activity android:name="com.erp.payrocket.PaymentScreen" />
-        <activity android:name="com.erp.payrocket.forgot" />
+        <activity android:name="com.makeitfeature.everypay.feePay" />
+        <activity android:name="com.makeitfeature.everypay.Passbook" />
+        <activity android:name="com.makeitfeature.everypay.payementDone" />
+        <activity android:name="com.makeitfeature.everypay.PaymentScreen" />
+        <activity android:name="com.makeitfeature.everypay.forgot" />
         <activity
-            android:name="com.erp.payrocket.Home"
+            android:name="com.makeitfeature.everypay.Home"
             android:label="@string/title_activity_home"
             android:theme="@style/Theme.PayRocket.NoActionBar" />
-        <activity android:name="com.erp.payrocket.MainActivity" >
+        <activity android:name="com.makeitfeature.everypay.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

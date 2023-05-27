@@ -49,7 +49,7 @@ INJECTED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidM
 INJECTED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:2:1-30:12
 INJECTED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:2:1-30:12
 	package
-		ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:3:5-32
+		ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:3:5-41
 		INJECTED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -86,38 +86,38 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jing
 		ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:11:9-47
-activity#com.erp.payrocket.feePay
-ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:12:9-53
+activity#com.makeitfeature.everypay.feePay
+ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:12:9-79
 	android:name
-		ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:12:19-41
-activity#com.erp.payrocket.Passbook
-ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:13:9-46
+		ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:12:19-67
+activity#com.makeitfeature.everypay.Passbook
+ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:13:9-72
 	android:name
-		ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:13:19-43
-activity#com.erp.payrocket.payementDone
-ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:14:9-50
+		ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:13:19-69
+activity#com.makeitfeature.everypay.payementDone
+ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:14:9-76
 	android:name
-		ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:14:19-47
-activity#com.erp.payrocket.PaymentScreen
-ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:15:9-51
+		ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:14:19-73
+activity#com.makeitfeature.everypay.PaymentScreen
+ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:15:9-77
 	android:name
-		ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:15:19-48
-activity#com.erp.payrocket.forgot
-ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:16:9-44
+		ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:15:19-74
+activity#com.makeitfeature.everypay.forgot
+ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:16:9-70
 	android:name
-		ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:16:19-41
-activity#com.erp.payrocket.Home
+		ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:16:19-67
+activity#com.makeitfeature.everypay.Home
 ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:17:9-20:66
 	android:label
 		ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:19:13-56
 	android:theme
 		ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:20:13-63
 	android:name
-		ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:18:13-33
-activity#com.erp.payrocket.MainActivity
+		ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:18:13-59
+activity#com.makeitfeature.everypay.MainActivity
 ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:21:9-27:20
 	android:name
-		ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:21:19-47
+		ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:21:19-73
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN

@@ -188,10 +188,6 @@
         "source": "/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/res/drawable/rupee.png"
     },
     {
-        "merged": "/Users/jingjietan/Desktop/everypay/PayRocket/app/build/intermediates/res/merged/debug/drawable-v21_payricon.png.flat",
-        "source": "/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/res/drawable-v21/payricon.png"
-    },
-    {
         "merged": "/Users/jingjietan/Desktop/everypay/PayRocket/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
@@ -354,6 +350,10 @@
     {
         "merged": "/Users/jingjietan/Desktop/everypay/PayRocket/app/build/intermediates/res/merged/debug/layout_activity_forgot.xml.flat",
         "source": "/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/res/layout/activity_forgot.xml"
+    },
+    {
+        "merged": "/Users/jingjietan/Desktop/everypay/PayRocket/app/build/intermediates/res/merged/debug/drawable-v21_everypaypayicon.png.flat",
+        "source": "/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/res/drawable-v21/everypaypayicon.png"
     },
     {
         "merged": "/Users/jingjietan/Desktop/everypay/PayRocket/app/build/intermediates/res/merged/debug/drawable-v24_latestcover.xml.flat",

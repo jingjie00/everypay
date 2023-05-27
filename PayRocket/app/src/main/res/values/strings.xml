@@ -1,10 +1,10 @@
 <resources>
 
 
-    <string name="app_name">Pay Rocket</string>
+    <string name="app_name">EveryPay</string>
     <string name="btn_text">Login</string>
     <string name="reg">Register</string>
-    <string name="head">Pay Rocket</string>
+    <string name="head">EveryPay</string>
     <string name="userN">Username</string>
     <string name="userP">Password</string>
     <string name="tagline">Payment Become Faster</string>

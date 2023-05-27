@@ -1,35 +1,35 @@
-com/erp/payrocket/MainActivity.java
- com.erp.payrocket.MainActivity
-com/erp/payrocket/ui/slideshow/AboutFragment.java
- com.erp.payrocket.ui.slideshow.AboutFragment
-com/erp/payrocket/Passbook.java
- com.erp.payrocket.Passbook
-com/erp/payrocket/BuildConfig.java
- com.erp.payrocket.BuildConfig
-com/erp/payrocket/ui/gallery/ProfileFragment.java
- com.erp.payrocket.ui.gallery.ProfileFragment
-com/erp/payrocket/ui/slideshow/AboutViewModel.java
- com.erp.payrocket.ui.slideshow.AboutViewModel
-com/erp/payrocket/ui/home/HomeViewModel.java
- com.erp.payrocket.ui.home.HomeViewModel
-com/erp/payrocket/PaymentScreen.java
- com.erp.payrocket.PaymentScreen
-com/erp/payrocket/ui/gallery/ProfileViewModel.java
- com.erp.payrocket.ui.gallery.ProfileViewModel
-com/erp/payrocket/feePay.java
- com.erp.payrocket.feePay
-com/erp/payrocket/forgot.java
- com.erp.payrocket.forgot
-com/erp/payrocket/ui/home/HomeFragment.java
- com.erp.payrocket.ui.home.HomeFragment
- com.erp.payrocket.ui.home.HomeFragment$1
- com.erp.payrocket.ui.home.HomeFragment$2
- com.erp.payrocket.ui.home.HomeFragment$3
- com.erp.payrocket.ui.home.HomeFragment$4
- com.erp.payrocket.ui.home.HomeFragment$5
- com.erp.payrocket.ui.home.HomeFragment$6
- com.erp.payrocket.ui.home.HomeFragment$7
-com/erp/payrocket/payementDone.java
- com.erp.payrocket.payementDone
-com/erp/payrocket/Home.java
- com.erp.payrocket.Home
+com/makeitfeature/everypay/Home.java
+ com.makeitfeature.everypay.Home
+com/makeitfeature/everypay/PaymentScreen.java
+ com.makeitfeature.everypay.PaymentScreen
+com/makeitfeature/everypay/ui/slideshow/AboutViewModel.java
+ com.makeitfeature.everypay.ui.slideshow.AboutViewModel
+com/makeitfeature/everypay/forgot.java
+ com.makeitfeature.everypay.forgot
+com/makeitfeature/everypay/ui/gallery/ProfileFragment.java
+ com.makeitfeature.everypay.ui.gallery.ProfileFragment
+com/makeitfeature/everypay/ui/slideshow/AboutFragment.java
+ com.makeitfeature.everypay.ui.slideshow.AboutFragment
+com/makeitfeature/everypay/feePay.java
+ com.makeitfeature.everypay.feePay
+com/makeitfeature/everypay/ui/gallery/ProfileViewModel.java
+ com.makeitfeature.everypay.ui.gallery.ProfileViewModel
+com/makeitfeature/everypay/MainActivity.java
+ com.makeitfeature.everypay.MainActivity
+com/makeitfeature/everypay/ui/home/HomeFragment.java
+ com.makeitfeature.everypay.ui.home.HomeFragment
+ com.makeitfeature.everypay.ui.home.HomeFragment$1
+ com.makeitfeature.everypay.ui.home.HomeFragment$2
+ com.makeitfeature.everypay.ui.home.HomeFragment$3
+ com.makeitfeature.everypay.ui.home.HomeFragment$4
+ com.makeitfeature.everypay.ui.home.HomeFragment$5
+ com.makeitfeature.everypay.ui.home.HomeFragment$6
+ com.makeitfeature.everypay.ui.home.HomeFragment$7
+com/makeitfeature/everypay/BuildConfig.java
+ com.makeitfeature.everypay.BuildConfig
+com/makeitfeature/everypay/ui/home/HomeViewModel.java
+ com.makeitfeature.everypay.ui.home.HomeViewModel
+com/makeitfeature/everypay/payementDone.java
+ com.makeitfeature.everypay.payementDone
+com/makeitfeature/everypay/Passbook.java
+ com.makeitfeature.everypay.Passbook
