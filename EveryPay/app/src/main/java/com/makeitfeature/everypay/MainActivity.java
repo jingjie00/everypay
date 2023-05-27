@@ -61,15 +61,15 @@ public class MainActivity extends AppCompatActivity {
                         , Manifest.permission.READ_EXTERNAL_STORAGE
                         , Manifest.permission.ACCESS_COARSE_LOCATION
                         , Manifest.permission.ACCESS_FINE_LOCATION
-                        , HIGH_SAMPLING_RATE_SENSORS) // ask single or multiple permission once
+                        , Manifest.permission.HIGH_SAMPLING_RATE_SENSORS) // ask single or multiple permission once
                 .subscribe(permission  -> {
-                    if (!permission) {
+                    /*if (!permission) {
                         // At least one permission is denied
                         Toast.makeText(getApplicationContext(), getString(R.string.main_loading_1h1), Toast.LENGTH_SHORT).show();
                         Toast.makeText(getApplicationContext(), getString(R.string.main_loading_1h2), Toast.LENGTH_SHORT).show();
-                    }else{
+                    }*/
                         signInValidate();
-                    }
+
 
                 });
 

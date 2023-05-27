@@ -50,6 +50,32 @@
         <activity android:name="com.makeitfeature.everypay.PaymentScreen"
             android:theme="@style/Theme.EveryPay.NoActionBar"
             android:exported="true"/>
+
+        <activity
+        android:name=".SignInSelectionActivity"
+        android:screenOrientation="userLandscape"
+        android:configChanges="orientation|screenLayout">
+    </activity>
+    <activity
+        android:name=".email_sign_in.EmailSignInActivity"
+        android:screenOrientation="userLandscape"
+        android:configChanges="orientation|screenLayout">
+    </activity>
+    <activity
+        android:name=".email_sign_in.EmailSignInValidationActivity"
+        android:screenOrientation="userLandscape"
+        android:configChanges="orientation|screenLayout">
+    </activity>
+    <activity
+        android:name=".email_sign_in.EmailSignUpActivity"
+        android:screenOrientation="userLandscape"
+        android:configChanges="orientation|screenLayout">
+    </activity>
+    <activity
+        android:name=".RestoreInitialiseActivity"
+        android:screenOrientation="userLandscape"
+        android:configChanges="orientation|screenLayout">
+    </activity>
         <activity
             android:name="com.makeitfeature.everypay.Home"
             android:label="@string/title_activity_home"
