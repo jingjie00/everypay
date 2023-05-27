@@ -1,29 +1,22 @@
-package com.erp.payrocket.ui.home;
+package com.makeitfeature.everypay.ui.home;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 
-import com.erp.payrocket.Passbook;
-import com.erp.payrocket.PaymentScreen;
-import com.erp.payrocket.R;
-import com.erp.payrocket.feePay;
-import com.google.android.material.snackbar.Snackbar;
+import com.makeitfeature.everypay.Passbook;
+import com.makeitfeature.everypay.PaymentScreen;
+import com.makeitfeature.everypay.R;
+import com.makeitfeature.everypay.feePay;
 
 public class HomeFragment extends Fragment  {
 

@@ -1,4 +1,4 @@
-package com.erp.payrocket.ui.gallery;
+package com.makeitfeature.everypay.ui.gallery;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.erp.payrocket.R;
+import com.makeitfeature.everypay.R;
 
 public class ProfileFragment extends Fragment {
 

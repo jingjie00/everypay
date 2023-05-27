@@ -1,4 +1,4 @@
-package com.erp.payrocket;
+package com.makeitfeature.everypay;
 
 
 import androidx.appcompat.app.AppCompatActivity;

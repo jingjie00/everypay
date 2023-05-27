@@ -1,4 +1,4 @@
-package com.erp.payrocket.ui.slideshow;
+package com.makeitfeature.everypay.ui.slideshow;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.erp.payrocket">
+    package="com.makeitfeature.everypay">
 
     <application
         android:allowBackup="true"
@@ -9,16 +9,16 @@
         android:roundIcon="@mipmap/logo_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PayRocket">
-        <activity android:name=".feePay"></activity>
-        <activity android:name=".Passbook" />
-        <activity android:name=".payementDone" />
-        <activity android:name=".PaymentScreen" />
-        <activity android:name=".forgot" />
+        <activity android:name="com.makeitfeature.everypay.feePay"></activity>
+        <activity android:name="com.makeitfeature.everypay.Passbook" />
+        <activity android:name="com.makeitfeature.everypay.payementDone" />
+        <activity android:name="com.makeitfeature.everypay.PaymentScreen" />
+        <activity android:name="com.makeitfeature.everypay.forgot" />
         <activity
-            android:name=".Home"
+            android:name="com.makeitfeature.everypay.Home"
             android:label="@string/title_activity_home"
             android:theme="@style/Theme.PayRocket.NoActionBar" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.makeitfeature.everypay.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
