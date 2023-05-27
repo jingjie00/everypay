@@ -1,4 +1,0 @@
-#Sat May 27 18:08:09 MYT 2023
-base.0=/Users/jingjietan/Desktop/everypay/PayRocket/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
