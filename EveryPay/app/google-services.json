@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "904380034888",
+    "project_id": "make1tfeature",
+    "storage_bucket": "make1tfeature.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904380034888:android:d4dbbf057e02993d204d7d",
+        "android_client_info": {
+          "package_name": "com.makeitfeature.everypay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904380034888-k00at6f7qgr2bj2955nm3unblmbgbikv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx5ldadxLoRrJ-ctGFwehWAR5iW9MlqZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904380034888-k00at6f7qgr2bj2955nm3unblmbgbikv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

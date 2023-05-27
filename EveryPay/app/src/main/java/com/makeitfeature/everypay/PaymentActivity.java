@@ -5,13 +5,30 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Base64;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.NotificationCompat;
+
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonObjectRequest;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 
 public class PaymentActivity extends AppCompatActivity {
@@ -59,6 +76,42 @@ public class PaymentActivity extends AppCompatActivity {
                 showNotification();
             }
         });
+
+        showQR();
+    }
+
+    private void showQR() {
+
+        RequestQueue queue = Volley.newRequestQueue(this);
+        String url = getString(R.string.generateQR)+"12345";
+        // Request a string response from the provided URL.
+        StringRequest stringRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+                // Display the first 500 characters of the response string.
+                try {
+                    JSONObject responseJson=new JSONObject(response);
+                    String data = responseJson.getString("data");
+                    // Display the first 500 characters of the response string.
+                    byte[] bytes=Base64.decode(data.replace("data:image/png;base64,",""), Base64.DEFAULT);
+                    // Initialize bitmap
+                    Bitmap bitmap= BitmapFactory.decodeByteArray(bytes,0,bytes.length);
+                    // set bitmap on imageView
+                    ImageView imageView= findViewById(R.id.qrView);
+                    imageView.setImageBitmap(bitmap);
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Log.e("GenerateQR","That didn't work!");
+            }
+        });
+
+        // Add the request to the RequestQueue.
+        queue.add(stringRequest);
     }
 
     public void showNotification() {

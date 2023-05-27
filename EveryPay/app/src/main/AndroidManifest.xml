@@ -14,7 +14,6 @@
     <uses-feature android:name="android.hardware.location.gps" />
 
     <uses-permission android:name="android.permission.VIBRATE" />
-    <uses-permission android:name="android.permission.INTERNET" />
     <uses-feature android:name="android.hardware.sensor.accelerometer" android:required="true" />
 
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
