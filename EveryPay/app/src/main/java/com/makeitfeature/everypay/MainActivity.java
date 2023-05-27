@@ -9,9 +9,11 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.Manifest;
+import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -43,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         permissionValidate();
+        setContentView(R.layout.activity_main);
     }
 
     public void Toaster(String msg){
@@ -86,7 +89,8 @@ public class MainActivity extends AppCompatActivity {
                 .setLogo(R.drawable.logo)
                 .setAvailableProviders(providers)
                 .build();
-        signInLauncher.launch(signInIntent);
+        //signInLauncher.launch(signInIntent);
+
     }
 
     private final ActivityResultLauncher<Intent> signInLauncher = registerForActivityResult(
@@ -106,12 +110,29 @@ public class MainActivity extends AppCompatActivity {
         if (result.getResultCode() == RESULT_OK) {
             // Successfully signed in
             FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+
             Intent intent = new Intent(MainActivity.this, Home.class);
             startActivity(intent);
         } else {
             Intent intent = new Intent(MainActivity.this, Home.class);
             startActivity(intent);
         }
+    }
+
+    public void loginwithemail(View view){
+        Intent i = new Intent(MainActivity.this, CameraRecognitionActivity.class);
+        i.putExtra("user","dependent");
+        i.putExtra("id","1273432172");
+        startActivity(i);
+        finish();
+    }
+
+    public void loginwithgoogle(View view){
+        Intent i = new Intent(MainActivity.this, CameraRecognitionActivity.class);
+        i.putExtra("user","dependent");
+        i.putExtra("id","1273432172");
+        startActivity(i);
+        finish();
     }
 
 

@@ -51,18 +51,6 @@
             android:exported="true"/>
 
         <activity
-        android:name=".email_sign_in.EmailSignInActivity"
-        android:theme="@style/Theme.EveryPay.NoActionBar"
-        android:exported="true"/>
-    <activity
-        android:name=".email_sign_in.EmailSignInValidationActivity"
-        android:theme="@style/Theme.EveryPay.NoActionBar"
-        android:exported="true"/>
-    <activity
-        android:name=".email_sign_in.EmailSignUpActivity"
-        android:theme="@style/Theme.EveryPay.NoActionBar"
-        android:exported="true"/>
-        <activity
         android:name="com.makeitfeature.everypay.Home"
         android:label="@string/title_activity_home"
         android:theme="@style/Theme.EveryPay.NoActionBar" />
@@ -73,6 +61,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.makeitfeature.everypay.CameraRecognitionActivity"
+            android:label="Camera Recognition Activity"
+            android:exported="false"/>
     </application>
+
 
 </manifest>
