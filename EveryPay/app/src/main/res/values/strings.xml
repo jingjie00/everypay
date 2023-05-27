@@ -150,4 +150,7 @@
 
     <!--APIs-->
     <string name="generateQR">https://analog-medium-388007.as.r.appspot.com/payhack/qr/get/QRUrL</string>
+
+    <string name="main_loading_1h1">Please grant the usage of camera, storage, and location permission after restart or in device setting.</string>
+    <string name="main_loading_1h2">Please restart the application.</string>
 </resources>
