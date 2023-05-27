@@ -53,6 +53,12 @@
         <activity android:name="com.makeitfeature.everypay.GDSelection"
             android:theme="@style/Theme.EveryPay.NoActionBar"
             android:exported="true"/>
+        <activity android:name="com.makeitfeature.everypay.Guardian"
+            android:theme="@style/Theme.EveryPay.NoActionBar"
+            android:exported="true"/>
+        <activity android:name="com.makeitfeature.everypay.Dependent"
+            android:theme="@style/Theme.EveryPay.NoActionBar"
+            android:exported="true"/>
 
         <activity
         android:name="com.makeitfeature.everypay.Home"

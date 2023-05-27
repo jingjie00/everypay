@@ -21,7 +21,7 @@ public class GDSelection extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_guardian);
+        setContentView(R.layout.activity_gdselection);
     }
 
     public void Toaster(String msg){
