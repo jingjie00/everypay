@@ -85,7 +85,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jing
 	android:allowBackup
 		ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:11:9-47
+		ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:11:9-46
 activity#com.makeitfeature.everypay.feePay
 ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:12:9-79
 	android:name
@@ -107,11 +107,11 @@ ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidMani
 	android:name
 		ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:16:19-67
 activity#com.makeitfeature.everypay.Home
-ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:17:9-20:66
+ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:17:9-20:65
 	android:label
 		ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:19:13-56
 	android:theme
-		ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:20:13-63
+		ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:20:13-62
 	android:name
 		ADDED from /Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:18:13-59
 activity#com.makeitfeature.everypay.MainActivity

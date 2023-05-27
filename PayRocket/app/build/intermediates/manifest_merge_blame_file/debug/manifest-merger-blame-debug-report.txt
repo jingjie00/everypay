@@ -26,8 +26,8 @@
 18        android:supportsRtl="true"
 18-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:10:9-35
 19        android:testOnly="true"
-20        android:theme="@style/Theme.PayRocket" >
-20-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:11:9-47
+20        android:theme="@style/Theme.EveryPay" >
+20-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:11:9-46
 21        <activity android:name="com.makeitfeature.everypay.feePay" />
 21-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:12:9-79
 21-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:12:19-67
@@ -44,13 +44,13 @@
 25-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:16:9-70
 25-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:16:19-67
 26        <activity
-26-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:17:9-20:66
+26-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:17:9-20:65
 27            android:name="com.makeitfeature.everypay.Home"
 27-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:18:13-59
 28            android:label="@string/title_activity_home"
 28-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:19:13-56
-29            android:theme="@style/Theme.PayRocket.NoActionBar" />
-29-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:20:13-63
+29            android:theme="@style/Theme.EveryPay.NoActionBar" />
+29-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:20:13-62
 30        <activity android:name="com.makeitfeature.everypay.MainActivity" >
 30-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:21:9-27:20
 30-->/Users/jingjietan/Desktop/everypay/PayRocket/app/src/main/AndroidManifest.xml:21:19-73
