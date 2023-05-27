@@ -18,7 +18,6 @@
 
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-    <uses-feature android:name="android.hardware.screen.landscape"/>
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -52,34 +51,21 @@
             android:exported="true"/>
 
         <activity
-        android:name=".SignInSelectionActivity"
-        android:screenOrientation="userLandscape"
-        android:configChanges="orientation|screenLayout">
-    </activity>
-    <activity
         android:name=".email_sign_in.EmailSignInActivity"
-        android:screenOrientation="userLandscape"
-        android:configChanges="orientation|screenLayout">
-    </activity>
+        android:theme="@style/Theme.EveryPay.NoActionBar"
+        android:exported="true"/>
     <activity
         android:name=".email_sign_in.EmailSignInValidationActivity"
-        android:screenOrientation="userLandscape"
-        android:configChanges="orientation|screenLayout">
-    </activity>
+        android:theme="@style/Theme.EveryPay.NoActionBar"
+        android:exported="true"/>
     <activity
         android:name=".email_sign_in.EmailSignUpActivity"
-        android:screenOrientation="userLandscape"
-        android:configChanges="orientation|screenLayout">
-    </activity>
-    <activity
-        android:name=".RestoreInitialiseActivity"
-        android:screenOrientation="userLandscape"
-        android:configChanges="orientation|screenLayout">
-    </activity>
+        android:theme="@style/Theme.EveryPay.NoActionBar"
+        android:exported="true"/>
         <activity
-            android:name="com.makeitfeature.everypay.Home"
-            android:label="@string/title_activity_home"
-            android:theme="@style/Theme.EveryPay.NoActionBar" />
+        android:name="com.makeitfeature.everypay.Home"
+        android:label="@string/title_activity_home"
+        android:theme="@style/Theme.EveryPay.NoActionBar" />
         <activity android:name="com.makeitfeature.everypay.MainActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

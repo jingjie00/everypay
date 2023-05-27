@@ -42,7 +42,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
         permissionValidate();
     }
 
@@ -68,39 +67,49 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(getApplicationContext(), getString(R.string.main_loading_1h1), Toast.LENGTH_SHORT).show();
                         Toast.makeText(getApplicationContext(), getString(R.string.main_loading_1h2), Toast.LENGTH_SHORT).show();
                     }*/
-                        signInValidate();
+                        login();
 
 
                 });
 
     }
 
-    private void signInValidate() {
-        status = findViewById(R.id.status);
-        status.setText(getString(R.string.main_loading_hint) + 2 + getString(R.string.main_loading_2b));
+    private void login(){
+        // Choose authentication providers
+        List<AuthUI.IdpConfig> providers = Arrays.asList(
+                new AuthUI.IdpConfig.EmailBuilder().build(),
+                new AuthUI.IdpConfig.GoogleBuilder().build());
 
-        FirebaseApp.initializeApp(this);
-        mAuth = FirebaseAuth.getInstance();
-        FirebaseUser user = mAuth.getCurrentUser();
+        // Create and launch sign-in intent
+        Intent signInIntent = AuthUI.getInstance()
+                .createSignInIntentBuilder()
+                .setLogo(R.drawable.logo)
+                .setAvailableProviders(providers)
+                .build();
+        signInLauncher.launch(signInIntent);
+    }
 
-        if (user != null) {
-            FirebaseAuth.getInstance().getCurrentUser().getIdToken(true).addOnSuccessListener(new OnSuccessListener<GetTokenResult>() {
+    private final ActivityResultLauncher<Intent> signInLauncher = registerForActivityResult(
+            new FirebaseAuthUIActivityResultContract(),
+            new ActivityResultCallback<FirebaseAuthUIAuthenticationResult>() {
                 @Override
-                public void onSuccess(@NonNull GetTokenResult getTokenResult) {
-                    Toast.makeText(getApplicationContext(),getString(R.string.main_loading_2success), Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(MainActivity.this, RestoreInitialiseActivity.class);
-                    startActivity(intent);
-                    finishAffinity();
+                public void onActivityResult(FirebaseAuthUIAuthenticationResult result) {
+                    onSignInResult(result);
                 }
-            }).addOnFailureListener(new OnFailureListener() {
-                @Override
-                public void onFailure(@NonNull Exception e) {
-                    Toast.makeText(getApplicationContext(), getString(R.string.main_loading_2failure), Toast.LENGTH_SHORT).show();
-                }
-            });
-        } else {
-            Intent intent = new Intent(MainActivity.this, SignInSelectionActivity.class);
+            }
+    );
+
+
+
+    private void onSignInResult(FirebaseAuthUIAuthenticationResult result) {
+        IdpResponse response = result.getIdpResponse();
+        if (result.getResultCode() == RESULT_OK) {
+            // Successfully signed in
+            FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+            Intent intent = new Intent(MainActivity.this, Home.class);
             startActivity(intent);
+        } else {
+            Toast.makeText(getApplicationContext(),"Error, try again",Toast.LENGTH_SHORT).show();
             finishAffinity();
         }
     }
