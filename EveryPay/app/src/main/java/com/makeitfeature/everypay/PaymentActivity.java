@@ -9,11 +9,13 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.util.Base64;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.NotificationCompat;
@@ -69,14 +71,29 @@ public class PaymentActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         setContentView(R.layout.activity_payment);
         super.onCreate(savedInstanceState);
-        Button notifyButton = findViewById(R.id.notifybutton);
-        notifyButton.setOnClickListener(new View.OnClickListener() {
+
+        TextView PaymentTitle = findViewById(R.id.PaymentTitle);
+        PaymentTitle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                TextView qrHint = findViewById(R.id.qrHint);
+                qrHint.setVisibility(View.INVISIBLE);
+
+                ImageView qrView= findViewById(R.id.qrView);
+                qrView.setVisibility(View.INVISIBLE);
+                ImageView scanSucceed= findViewById(R.id.scanSucceed);
+                scanSucceed.setVisibility(View.VISIBLE);
+            }
+        });
+        TextView qrHint = findViewById(R.id.qrHint);
+        qrHint.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 showNotification();
             }
         });
-
+        TextView myTextView = findViewById(R.id.qrHint);
+        myTextView.setVisibility(View.INVISIBLE);
         showQR();
     }
 
@@ -97,8 +114,13 @@ public class PaymentActivity extends AppCompatActivity {
                     // Initialize bitmap
                     Bitmap bitmap= BitmapFactory.decodeByteArray(bytes,0,bytes.length);
                     // set bitmap on imageView
-                    ImageView imageView= findViewById(R.id.qrView);
-                    imageView.setImageBitmap(bitmap);
+
+
+                    ImageView qrView= findViewById(R.id.qrView);
+                    qrView.setVisibility(View.VISIBLE);
+                    qrView.setImageBitmap(bitmap);
+                    TextView qrHint = findViewById(R.id.qrHint);
+                    qrHint.setVisibility(View.VISIBLE);
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }

@@ -3,8 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/drawable-v21/ic_menu_camera.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/drawable-v21/ic_menu_gallery.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/drawable-v21/ic_menu_slideshow.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/drawable-v24/latestcover.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/drawable-v24/trancover.xml" value="0.1" />
         <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/drawable/edit_hover_effect.xml" value="0.1255" />
+        <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/drawable/email_sent.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/drawable/email_signin.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/drawable/google_signin.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/drawable/gradientblue.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/drawable/gradientgreen.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/drawable/gradientred.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/drawable/hide_pass.xml" value="0.1" />
         <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/drawable/ic_edit.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/drawable/loading_bg.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/drawable/logo.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/drawable/logo_background.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/drawable/movieimg_background.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/drawable/rounded_edit_text.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/drawable/show_pass.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/drawable/side_nav_bar.xml" value="0.1" />
         <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/layout/activity_dependent.xml" value="0.1" />
         <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/layout/activity_fee_pay.xml" value="0.1" />
         <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/layout/activity_gdselection.xml" value="0.1" />
@@ -13,7 +34,7 @@
         <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/layout/activity_main.xml" value="0.12158054711246201" />
         <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/layout/activity_passbook.xml" value="0.12158054711246201" />
         <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/layout/activity_payement_done.xml" value="0.12158054711246201" />
-        <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/layout/activity_payment.xml" value="0.2" />
+        <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/layout/activity_payment.xml" value="0.1" />
         <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/layout/activity_payment_screen.xml" value="0.1" />
         <entry key="..\:/Android/AndroidStudioProject/everypay/EveryPay/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
       </map>

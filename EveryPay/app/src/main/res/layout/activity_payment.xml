@@ -8,12 +8,14 @@
 
 
     <TextView
-        android:id="@+id/textView31"
+        android:id="@+id/PaymentTitle"
         android:layout_width="259dp"
         android:layout_height="0dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="180dp"
+        android:clickable="true"
         android:gravity="center"
+        android:onClick="showNotification"
         android:text="Payment QR"
         android:textColor="#3F51B5"
         android:textSize="30sp"
@@ -22,37 +24,56 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
+        app:layout_constraintVertical_bias="0.023"
+        tools:ignore="OnClick" />
 
     <ImageView
+        android:id="@+id/imageView9"
         android:layout_width="87dp"
-        android:layout_height="100dp"
 
+        android:layout_height="100dp"
         android:layout_marginTop="112dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/everypaypayicon" />
 
-    <Button
-        android:id="@+id/notifybutton"
-        android:layout_width="372dp"
-        android:layout_height="59dp"
-        android:onClick="showNotification"
-        android:text="Confirm"
-        android:textSize="20sp"
-        app:backgroundTint="#3F51B5"
-        app:cornerRadius="40dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.589"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.922"
-        tools:ignore="OnClick" />
+    <!--    <Button-->
+    <!--        android:id="@+id/notifybutton"-->
+    <!--        android:layout_width="372dp"-->
+    <!--        android:layout_height="59dp"-->
+    <!--        android:onClick="showNotification"-->
+    <!--        android:text="Confirm"-->
+    <!--        android:textSize="20sp"-->
+    <!--        app:backgroundTint="#3F51B5"-->
+    <!--        app:cornerRadius="40dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.589"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.922"-->
+    <!--        tools:ignore="OnClick" />-->
 
     <ImageView
         android:id="@+id/qrView"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="138dp"
+        android:gravity="center"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView31"
+        tools:ignore="MissingConstraints,UnknownIdInLayout" />
+
+
+    <ImageView
+        android:id="@+id/scanSucceed"
         android:layout_width="350dp"
         android:layout_height="350dp"
         android:layout_marginStart="30dp"
@@ -64,8 +85,30 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView31"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints,UnknownIdInLayout"
+        android:src="@drawable/email_sent"
+        android:animateLayoutChanges="true"
+        android:visibility="invisible"
+        />
 
+    <TextView
+        android:id="@+id/qrHint"
+        android:layout_width="200dp"
+        android:layout_height="74dp"
+        android:clickable="true"
+        android:onClick="showNotification"
+        android:text="Refresh Every 5 minutes!"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.943"
+        tools:ignore="MissingConstraints,OnClick"
+        android:textSize="15sp"
+        android:gravity="center_horizontal"
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
