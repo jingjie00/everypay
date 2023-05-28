@@ -16,6 +16,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.NotificationCompat;
@@ -31,6 +32,8 @@ import com.android.volley.toolbox.Volley;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import java.util.Random;
 
 
 public class PaymentActivity extends AppCompatActivity {
@@ -140,10 +143,13 @@ public class PaymentActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity.class);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_IMMUTABLE);
 
+        Random randNum = new Random();
+        String money = randNum.ints(0,100).findFirst().getAsInt()
+                + "."+ randNum.ints(0,100).findFirst().getAsInt() ;
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this, CHANNEL_ID)
                 .setSmallIcon(R.drawable.logo)
-                .setContentTitle("Notification Title")
-                .setContentText("Notification Message")
+                .setContentTitle("Your dependent paid to merchant.")
+                .setContentText("RM "+money+"has been transferred")
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT)
                 .setContentIntent(pendingIntent)
                 .setAutoCancel(true);
@@ -151,6 +157,7 @@ public class PaymentActivity extends AppCompatActivity {
         NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
         notificationManager.notify(1, builder.build());
         createNotificationChannel();
+        Toast.makeText(getApplicationContext(),"Your dependent paid RM "+money+" has been transfered.",Toast.LENGTH_LONG).show();
     }
 
     public void createNotificationChannel() {
