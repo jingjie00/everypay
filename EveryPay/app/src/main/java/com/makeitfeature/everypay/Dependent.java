@@ -39,40 +39,17 @@ public class Dependent extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dependent);
-
-        RequestQueue queue = Volley.newRequestQueue(this);
-        String url = getString(R.string.generateQR)+"12345";
-        // Request a string response from the provided URL.
-        StringRequest stringRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
-            @Override
-            public void onResponse(String response) {
-                // Display the first 500 characters of the response string.
-                try {
-                    JSONObject responseJson=new JSONObject(response);
-                    String data = responseJson.getString("data");
-                    // Display the first 500 characters of the response string.
-                    byte[] bytes= Base64.decode(data.replace("data:image/png;base64,",""), Base64.DEFAULT);
-                    // Initialize bitmap
-                    Bitmap bitmap= BitmapFactory.decodeByteArray(bytes,0,bytes.length);
-                    // set bitmap on imageView
+        String data = "iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAYAAADj79JYAAAAAklEQVR4AewaftIAAAJXSURBVO3BQY4bQQwEwSxi/v/ltI6ED71oSEvLACPiC2tMsUYVa1SxRj38JQmTVLokdCpdEm6odEmYpNIVa1SxRhVr1MMPVD4pCScq71C5ofJJSTgp1qhijSrWqIdLSbihciMJJypdEj4pCTdUbhRrVLFGFWvUw39OpUtCp/JNijWqWKOKNerhy6mcJKFT+WbFGlWsUcUa9XBJ5TepdEm4kYRO5YbKbyrWqGKNKtaohx8kYVISOpUuCZ1Kl4QbSZhUrFHFGlWsUfGF/1gSTlS+SbFGFWtUsUY9/CUJ71A5SUKn0iXhk5LQqZwk4YZKl4ROpSvWqGKNKtao+EKThBOVLgk3VLok/EsqJ0l4h0pXrFHFGlWsUQ8/UHmHSpeETuUkCZ1Kl4RO5ZNUPqlYo4o1qlijHv6i0iXhRKVLwonKDZVPSsINlS4JnUqXhE6lK9aoYo0q1qj4wgcl4YbKjSR0Kl0SOpWTJHQqN5LQqZwUa1SxRhVrVHzhiyShU+mScKJykoRO5SQJncpJEjqVrlijijWqWKPiC00SJqncSMINlZMkdCq/qVijijWqWKMefqDySUn4JJVPSkKn0iXhROWkWKOKNapYox4uJeGGyjuScCMJn5SETuUkCZ1KV6xRxRpVrFEPXyYJnUqXhC4JncpJEt6RhBOVk2KNKtaoYo16+HJJOFHpktCp3FD5TcUaVaxRxRr1cEllkkqXhBOVLgmdSpeEG0m4odIVa1SxRhVr1MMPkvAvJeE3qXRJ6FQ6lS4JncpJsUYVa1SxRsUX1phijSrWqGKN+gPcmwm2zII9sAAAAABJRU5ErkJggg==";
+        // Display the first 500 characters of the response string.
+        byte[] bytes= Base64.decode(data, Base64.DEFAULT);
+        // Initialize bitmap
+        Bitmap bitmap= BitmapFactory.decodeByteArray(bytes,0,bytes.length);
+        // set bitmap on imageView
 
 
-                    ImageView qrView= findViewById(R.id.dependentQr);
-                    qrView.setVisibility(View.VISIBLE);
-                    qrView.setImageBitmap(bitmap);
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
-            }
-        }, new Response.ErrorListener() {
-            @Override
-            public void onErrorResponse(VolleyError error) {
-                Log.e("GenerateQR","That didn't work!");
-            }
-        });
-
-        // Add the request to the RequestQueue.
-        queue.add(stringRequest);
+        ImageView qrView= findViewById(R.id.dependentQr);
+        qrView.setVisibility(View.VISIBLE);
+        qrView.setImageBitmap(bitmap);
 
         ImageView dependentQr = findViewById(R.id.dependentQr);
         dependentQr.setOnClickListener(new View.OnClickListener() {
