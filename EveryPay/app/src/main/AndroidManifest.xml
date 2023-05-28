@@ -63,7 +63,7 @@
         <activity
         android:name="com.makeitfeature.everypay.Home"
         android:label="@string/title_activity_home"
-        android:theme="@style/Theme.EveryPay.NoActionBar" />
+        android:theme="@style/Theme.EveryPay.NoActionBar" android:exported="true"/>
         <activity android:name="com.makeitfeature.everypay.MainActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -74,7 +74,7 @@
         <activity
             android:name="com.makeitfeature.everypay.PaymentActivity"
             android:label="Camera Recognition Activity"
-            android:exported="false"/>
+            android:exported="true"/>
     </application>
 
 

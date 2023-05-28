@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void loginwithemail(View view){
         Intent i = new Intent(MainActivity.this, PaymentActivity.class);
-        i.putExtra("user","dependent");
+        i.putExtra("user","dependent (dummy)");
         i.putExtra("id","1273432172");
         startActivity(i);
         finish();
@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void loginwithgoogle(View view){
         Intent i = new Intent(MainActivity.this, PaymentActivity.class);
-        i.putExtra("user","guardian");
+        i.putExtra("user","guardian (dummy)");
         i.putExtra("id","222233344");
         startActivity(i);
         finish();
