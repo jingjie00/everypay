@@ -21,13 +21,6 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.NotificationCompat;
 
-import com.android.volley.Request;
-import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.JsonObjectRequest;
-import com.android.volley.toolbox.StringRequest;
-import com.android.volley.toolbox.Volley;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -102,7 +95,7 @@ public class PaymentActivity extends AppCompatActivity {
 
     private void showQR() {
 
-        RequestQueue queue = Volley.newRequestQueue(this);
+        //RequestQueue queue = Volley.newRequestQueue(this);
         String url = getString(R.string.generateQR)+"12345";
         // Request a string response from the provided URL.
         String data = "iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAYAAADj79JYAAAAAklEQVR4AewaftIAAAJXSURBVO3BQY4bQQwEwSxi/v/ltI6ED71oSEvLACPiC2tMsUYVa1SxRj38JQmTVLokdCpdEm6odEmYpNIVa1SxRhVr1MMPVD4pCScq71C5ofJJSTgp1qhijSrWqIdLSbihciMJJypdEj4pCTdUbhRrVLFGFWvUw39OpUtCp/JNijWqWKOKNerhy6mcJKFT+WbFGlWsUcUa9XBJ5TepdEm4kYRO5YbKbyrWqGKNKtaohx8kYVISOpUuCZ1Kl4QbSZhUrFHFGlWsUfGF/1gSTlS+SbFGFWtUsUY9/CUJ71A5SUKn0iXhk5LQqZwk4YZKl4ROpSvWqGKNKtao+EKThBOVLgk3VLok/EsqJ0l4h0pXrFHFGlWsUQ8/UHmHSpeETuUkCZ1Kl4RO5ZNUPqlYo4o1qlijHv6i0iXhRKVLwonKDZVPSsINlS4JnUqXhE6lK9aoYo0q1qj4wgcl4YbKjSR0Kl0SOpWTJHQqN5LQqZwUa1SxRhVrVHzhiyShU+mScKJykoRO5SQJncpJEjqVrlijijWqWKPiC00SJqncSMINlZMkdCq/qVijijWqWKMefqDySUn4JJVPSkKn0iXhROWkWKOKNapYox4uJeGGyjuScCMJn5SETuUkCZ1KV6xRxRpVrFEPXyYJnUqXhC4JncpJEt6RhBOVk2KNKtaoYo16+HJJOFHpktCp3FD5TcUaVaxRxRr1cEllkkqXhBOVLgmdSpeEG0m4odIVa1SxRhVr1MMPkvAvJeE3qXRJ6FQ6lS4JncpJsUYVa1SxRsUX1phijSrWqGKN+gPcmwm2zII9sAAAAABJRU5ErkJggg==";

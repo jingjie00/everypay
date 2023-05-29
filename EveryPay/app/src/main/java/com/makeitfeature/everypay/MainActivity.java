@@ -51,8 +51,7 @@ public class MainActivity extends AppCompatActivity {
                         , Manifest.permission.WRITE_EXTERNAL_STORAGE
                         , Manifest.permission.READ_EXTERNAL_STORAGE
                         , Manifest.permission.ACCESS_COARSE_LOCATION
-                        , Manifest.permission.ACCESS_FINE_LOCATION
-                        , Manifest.permission.HIGH_SAMPLING_RATE_SENSORS) // ask single or multiple permission once
+                        , Manifest.permission.ACCESS_FINE_LOCATION) // ask single or multiple permission once
                 .subscribe(permission  -> {
                     /*if (!permission) {
                         // At least one permission is denied
