@@ -2,35 +2,20 @@
 Payment Becomes Faster
 
 # Welcome to EveryPay Readme.
-
-EveryPay is a Payment app Ui made in Java android studio. It is just an Frontend build.
-
-EveryPay is made for Android only as it is made in Android Studio.
+EveryPay is a Lite Payment app that can contribute for super app like TouchnGo
 
 ## Requirments 
-
-EveryPay Requires Java and Andorid Studio and Emulator to Test on.
-It is completly made in Java.
-
-
+Just run it using IDE like Andorid Studio
+Only able run in Android system for now.
 
 
 ## Features
-
-
-1. Admin login	
-2. Check Passbook
-3. Pay to anyone	 
-4. Pay fees with One tap
-5. Book movies, travel, food and Pay Bills
-
-later on more Features will be added
+1. Guardian-dependent monitoring system
+2. Payment
 
 
 ## Usage
-
-Just run the code in emulator or in your Mobile (for testing only) by USB cable.
-Or build an APK and then share it with your friends.
+Can deploy in your mobile phone to view it.
 
 
 
